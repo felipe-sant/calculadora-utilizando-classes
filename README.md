@@ -66,13 +66,15 @@ Projeto desenvolvido para treino de typescript e classes com polimorfismo de her
 
 ## ⚙️ Como rodar:
 
-1. Abra o CMD no local que deseja clonar o repositório e execute este comando:
+1. É necessario que você tenha o Node instalado na sua máquina. [Baixe aqui!](https://nodejs.org/pt-br/download/package-manager)
+
+2. Abra o CMD no local que deseja clonar o repositório e execute este comando:
 
 ```
 git clone https://github.com/felipe-sant/calculadora-utilizando-classes.git
 ```
 
-2. Para instalar as dependencias e rodar o projeto digite:
+3. Para instalar as dependencias e rodar o projeto digite:
 
 ```
 npm install
@@ -86,4 +88,4 @@ node out/main.js
 
 Na pasta [src/](src/) há os arquivos source do projeto, havendo os arquivos:
 - [main.ts](src/main.ts), sendo o arquivo principal para rodar o projeto.
-- [module](src/module/), pasta de modulos com os arquivos de classe de cada tipo de operação.
+- [module/](src/module/), pasta de modulos com os arquivos de classe de cada tipo de operação.
