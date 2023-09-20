@@ -60,7 +60,7 @@ let iniciar = () => {
             case "bhaskara":
                 let bhaskara_x1 = new bhaskara_negativo()
                 let bhaskara_x2 = new bhaskara_positivo()
-                console.log(`x1: ${bhaskara_x1.calcular(n1, n2, n3)}\nx2: ${bhaskara_x2.calcular(n1, n2, n3)}`)
+                console.log(`x1 = ${bhaskara_x1.calcular(n1, n2, n3)}, x2 = ${bhaskara_x2.calcular(n1, n2, n3)}`)
         }
     })
 }
