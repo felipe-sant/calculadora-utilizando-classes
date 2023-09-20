@@ -69,7 +69,7 @@ Projeto desenvolvido para treino de typescript e classes com polimorfismo de her
 1. Abra o CMD no local que deseja clonar o repositório e execute este comando:
 
 ```
-git clone https://github.com/felipe-sant/testes.git
+git clone https://github.com/felipe-sant/calculadora-utilizando-classes.git
 ```
 
 2. Para instalar as dependencias e rodar o projeto digite:
