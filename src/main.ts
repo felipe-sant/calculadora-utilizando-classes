@@ -26,10 +26,8 @@ let iniciar = () => {
         if (Number(instrucoes[1]) > 0 || Number(instrucoes[1]) < 0 || Number(instrucoes[1]) == 0) {
             n2 = Number(instrucoes[1])
             operacao = "bhaskara"
-            console.log(`estas foram suas instruções ${instrucoes[1]}, voce esta escolhendo baskara, sua operação sera: ${operacao}\n`)
         } else {    
             operacao = instrucoes[1]
-            console.log(`estas foram suas instruções ${instrucoes}, voce esta escolhendo normal, sua operação sera: ${operacao}\n`)
         }
         
         switch (operacao) {
@@ -60,7 +58,13 @@ let iniciar = () => {
             case "bhaskara":
                 let bhaskara_x1 = new bhaskara_negativo()
                 let bhaskara_x2 = new bhaskara_positivo()
-                console.log(`x1 = ${bhaskara_x1.calcular(n1, n2, n3)}, x2 = ${bhaskara_x2.calcular(n1, n2, n3)}`)
+                let x1 = bhaskara_x1.calcular(n1,n2,n3)
+                let x2 = bhaskara_x2.calcular(n1,n2,n3)
+                if (x1 === -1 || x2 === -1) {
+                    console.log("Bhaskara inexistente \n")
+                } else {
+                    console.log(`x1 = ${x1}, x2 = ${x2} \n`)
+                }
         }
     })
 }
